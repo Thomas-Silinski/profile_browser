@@ -15,11 +15,6 @@ use App\Http\Controllers\StarController;
 |
 */
 
-//Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
-//    return $request->user();
-//});
-//
-//Route::get('/stars', [StarController::class, 'index']);
-//Route::post('/stars', [StarController::class, 'store']);
-//Route::put('/stars', [StarController::class, 'update']);
-//Route::delete('/stars', [StarController::class, 'destroy']);
+Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
+    return $request->user();
+});

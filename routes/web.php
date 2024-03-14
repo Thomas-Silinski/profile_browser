@@ -26,7 +26,5 @@ Route::put('/stars', function () {
 });
 
 Route::resource('stars', StarController::class)->except(['show']);
-//Route::get('/create', route('stars.create'))->name('create');
 
 Route::redirect('/', route('stars.index'))->name('dashboard');
-//Route::redirect('/edit', route('stars.edit'))->name('edit');

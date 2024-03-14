@@ -20,7 +20,7 @@ class StarTest extends TestCase
     }
 
     /**
-     * A basic functional test example.
+     * A test example with post method and header.
      */
     public function test_interacting_with_headers(): void
     {
@@ -38,7 +38,7 @@ class StarTest extends TestCase
     }
 
     /**
-     * A basic functional test example.
+     * A test example with put method and header.
      */
     public function test_interacting_put(): void
     {
@@ -56,7 +56,7 @@ class StarTest extends TestCase
     }
 
     /**
-     * A basic feature test example.
+     * A test example with get method.
      */
     public function get_stars(): void
     {
@@ -66,7 +66,7 @@ class StarTest extends TestCase
     }
 
     /**
-     * A basic feature test example.
+     * A test example with get method and id not found.
      */
     public function test_star_by_id_not_found(): void
     {
@@ -76,7 +76,7 @@ class StarTest extends TestCase
     }
 
     /**
-     * A basic feature test example.
+     * A test example with get method and id.
      */
     public function test_star_by_id(): void
     {
